@@ -1,0 +1,10 @@
+/var/log/dnsmasq/dnsmasq.log {
+notifempty
+daily
+dateext
+rotate 0
+sharedscripts
+postrotate
+[ ! -f /var/run/dnsmasq.pid ] || kill -USR2 `cat /var/run/dnsmasq.pid`
+endscript
+}
