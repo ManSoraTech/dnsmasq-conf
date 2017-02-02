@@ -5,8 +5,8 @@ dnsmasq conf for shadowsocks
 
      yum install -y dnsmasq
      systemctl enable dnsmasq
-     wget https://raw.githubusercontent.com/Love4Taylor/dnsmasq-conf-for-shadowsocks/master/dnsmasq-updater.sh -O /root/dnsmasq-updater.sh
-     wget https://raw.githubusercontent.com/Love4Taylor/dnsmasq-conf-for-shadowsocks/master/logrotate.d/dnsmasq -O /etc/logrotate.d/dnsmasq
+     wget https://raw.githubusercontent.com/ManSoRaTech/dnsmasq-conf-for-shadowsocks/master/dnsmasq-updater.sh -O /root/dnsmasq-updater.sh
+     wget https://raw.githubusercontent.com/ManSoRaTech/dnsmasq-conf-for-shadowsocks/master/logrotate.d/dnsmasq -O /etc/logrotate.d/dnsmasq
      chmod +x /your_path/dnsmasq-updater.sh
      /your_path/dnsmasq-updater.sh
 	 
